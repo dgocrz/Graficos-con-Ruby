@@ -1,0 +1,7 @@
+Pasos para probar el codigo localmente
+
+- Descargar el repositorio en tu computadora
+- Tener Instalado Ruby y Sinatra 
+- En la terminal ubicar la carpeta donde se encuentre el archivo app.rb
+- Ejecutar ruby app.rb
+- Abrir en el navegador http://127.0.0.1:4567/ 
