@@ -1,8 +1,14 @@
 
+
+
 require 'sinatra'
 require 'json'
 
 set :public_folder, 'public' # para archivos JS/CSS
+
+set :bind, '0.0.0.0'
+
+set :port , ENV.fetch('PORT',4567)
 
 # Ruta principal
 get '/' do
