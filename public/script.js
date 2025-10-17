@@ -14,6 +14,10 @@ async function cargarGrafica() {
       }]
     },
     options:{
+      animation,
+    interaction: {
+      intersect: false
+    },
         responsive: true,
         color:'red',
         plugins: {
